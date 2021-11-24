@@ -11,6 +11,15 @@ for (let i = 0; i < colors; i += 1) {
 
 colorPalette.children[0].classList.add('selected');
 
+function select(click) {
+  if (click.target !== colorPalette) {
+    document.querySelector('.selected').classList.remove('selected');
+    click.target.classList.add('selected');
+  }
+}
+
+colorPalette.addEventListener('click', select);
+
 for (let i = 0; i < pixels; i += 1) {
   pixelBoard.appendChild(document.createElement('div'));
   for (let j = 0; j < pixels; j += 1) {
