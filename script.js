@@ -9,6 +9,8 @@ for (let i = 0; i < colors; i += 1) {
   colorPalette.children[i].className = 'color';
 }
 
+colorPalette.children[0].classList.add('selected');
+
 for (let i = 0; i < pixels; i += 1) {
   pixelBoard.appendChild(document.createElement('div'));
   for (let j = 0; j < pixels; j += 1) {
