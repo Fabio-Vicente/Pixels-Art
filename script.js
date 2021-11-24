@@ -25,12 +25,21 @@ function select(click) {
 colorPalette.addEventListener('click', select);
 
 //  QUADRO DE PIXELS
+function rectifyInRange(value, min, max) {
+  if (value < min) {
+    return min;
+  }
+  if (value > max) {
+    return max;
+  }
+  return value;
+}
 function changePixelsSize(event) {
   if (event.type === 'click') {
     if (input.value === '' || input.value < 1) {
       return false;
     }
-    pixels = input.value;
+    pixels = rectifyInRange(input.value, 5, 50);
   }
   return true;
 }
