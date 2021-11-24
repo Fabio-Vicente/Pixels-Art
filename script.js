@@ -27,3 +27,15 @@ for (let i = 0; i < pixels; i += 1) {
     pixelBoard.children[i].children[j].className = 'pixel';
   }
 }
+
+function paintPixel(click) {
+  if (click.target.classList.contains('pixel')) {
+    const selectedHTML = document.getElementsByClassName('selected')[0];
+    const bgClrClicked = window.getComputedStyle(selectedHTML).getPropertyValue('background-color');
+    /* const clicked =  */
+    const clicked = click;
+    clicked.target.style.backgroundColor = bgClrClicked;
+  }
+}
+
+pixelBoard.addEventListener('click', paintPixel);
