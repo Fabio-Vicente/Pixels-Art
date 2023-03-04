@@ -72,9 +72,7 @@ This project development is part of [Trybe](https://www.betrybe.com/) course pro
 >
 >  - Use `git@github.com:Fabio-Vicente/Pixels-Art.git` endpoint for clonning via SSH (it must be need set a SSH Key);
 
-<br />
-
-## Usage
+### Initialization
 
 Once you have procedure on the [installation process](#instalation), open the [index.html](index.html) downloaded file on your browser to start to use the program.
 
@@ -84,20 +82,17 @@ Once you have procedure on the [installation process](#instalation), open the [i
 
 <br />
 
-## Lint
+## Usage
 
-The project was staticly tested using [StyleLint](https://stylelint.io/) and [ESLint](https://eslint.org/), whose appoints no error on code analyses. These tools enforces code readbility and standart development style such on CSS development (StyleLint) as on Javascript development (ESLint).
+Open up your mind and release your imagination to freely paint a board by picking up a color and clicking on the pixels. See the features below for further information.
 
-
-## Features
-
-### Select your color
+### Selecting your colors
 
 You have a huge range of colors (16777216 to be exact) to choose and make your board even more beautiful.
 
-Initially, you'll see four colors available. The black one, and other three random colors.
+Initially, you'll see four available. The black one, and other three random colors.
 
-Every time you refresh the page, you have new colors available! 🎉 All colors will change, with except to black, which is the default color, to make available try new and undiscovered tonalities.
+Every time you refresh page, you have new colors available! 🎉 All colors will change, with except to black, which is the default color, to make available to try new and undiscovered tonalities.
 
 <br />
 <div align=center>
@@ -143,9 +138,15 @@ After all, if you want to clear your board, and start a new drawning from beginn
 
 <br />
 <div align=center>
-  <img src=assets/gifs/save-board.gif alt="Save board"" />
+  <img src=assets/gifs/save-board.gif alt="Save board" />
 </div>
 <br />
+
+<br />
+
+## Lint
+
+The project was staticly tested using [StyleLint](https://stylelint.io/) and [ESLint](https://eslint.org/), whose appoints no error on code analyses. These tools enforces code readbility and standart development style such on CSS development (StyleLint) as on Javascript development (ESLint).
 
 <br />
 
