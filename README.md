@@ -74,9 +74,9 @@ This project development is part of [Trybe](https://www.betrybe.com/) course pro
 
 ### Initialization
 
-Once you have procedure on the [installation process](#instalation), open the [index.html](index.html) downloaded file on your browser to start to use the program.
+Once you have procedure on the [installation process](#instalation), open [index.html](index.html) downloaded file on your browser to start use program.
 
-**Don't wanna install the project locally?** No worries! You can acess the web project by this link:
+**Don't want to install the project locally?** No worries! You can acess the web project by this link:
 
 > https://fabio-vicente.github.io/Pixels-Art/
 
