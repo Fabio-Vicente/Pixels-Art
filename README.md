@@ -26,6 +26,8 @@ Get a full-featured board to make your best draws using pixels arts.
 
 Choose colors, and save your best ones. Resize your board and save it to continue to drawing later. All of it accessible both for PC as for mobile. What you waiting for start to drawing?
 
+This project development is part of [Trybe](https://www.betrybe.com/) course program.
+
 ### Development Skills
 
 - HTML;
